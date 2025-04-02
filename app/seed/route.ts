@@ -108,8 +108,9 @@ export async function GET() {
       seedCustomers(),
       seedInvoices(),
       seedRevenue(),
+      console.log(sql)
     ]);
-
+    console.log(result);
     return Response.json({ message: 'Database seeded successfully' });
   } catch (error) {
     return Response.json({ error }, { status: 500 });
