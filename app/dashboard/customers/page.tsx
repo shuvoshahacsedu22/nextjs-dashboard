@@ -1,6 +1,6 @@
 import { fetchFilteredCustomersPages } from "@/app/lib/data";
 import CustomersTable from "@/app/ui/customers/table";
-import { CustomerTableSkeleton, InvoicesTableSkeleton } from "@/app/ui/skeletons";
+import { CustomerTableSkeleton } from "@/app/ui/skeletons";
 import Pagination from "@/app/ui/invoices/pagination";
 import { Suspense } from "react";
 import Search from '@/app/ui/search';

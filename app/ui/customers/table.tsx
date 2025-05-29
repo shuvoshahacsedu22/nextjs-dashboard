@@ -1,8 +1,4 @@
 import Image from 'next/image';
-import { lusitana } from '@/app/ui/fonts';
-import {
-  FormattedCustomersTable,
-} from '@/app/lib/definitions';
 import { fetchFilteredCustomers } from '@/app/lib/data';
 
 export default async function CustomersTable({
